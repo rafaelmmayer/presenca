@@ -1,0 +1,19 @@
+POST {{baseUrl}}/trpc/createClass
+Content-Type: application/json
+
+{
+    "name": "Aula 1",
+    "total": 10,
+    "times": [
+        {
+            "dayOfWeek": 1,
+            "start": "19:20",
+            "end": "20:50"
+        },
+        {
+            "dayOfWeek": 3,
+            "start": "19:20",
+            "end": "20:50"
+        }
+    ]
+}
